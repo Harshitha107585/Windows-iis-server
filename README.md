@@ -1,43 +1,68 @@
-# Mini Project
+# Windows IIS Server
 
-## 🌐 Website Deployment using Amazon S3
+## 🌐 Website Deployment using Amazon EC2 and IIS
 
-This project is a static website that was deployed and hosted using **Amazon S3 (Simple Storage Service)**.
+This project is a website that was deployed and hosted on a **Windows Server EC2 instance** using **Internet Information Services (IIS)**.
 
 ## 🛠️ Technologies Used
 
 - HTML
 - CSS
 - JavaScript
-- Amazon S3
+- Amazon EC2
+- Windows Server
+- IIS (Internet Information Services)
 - Git & GitHub
 
-## ☁️ Deployment using AWS S3
+## ☁️ Deployment using Amazon EC2 and IIS
 
-The website was deployed using an Amazon S3 bucket.
+The website was deployed on a Windows EC2 instance and hosted using IIS.
 
 ### Deployment Steps
 
-1. Created an Amazon S3 bucket.
-2. Configured the bucket for website hosting.
-3. Uploaded the website files to the S3 bucket.
-4. Used the S3 bucket to host the static website.
+1. Created a Windows Server EC2 instance.
+2. Connected to the Windows EC2 instance using Remote Desktop Protocol (RDP).
+3. Installed **IIS (Internet Information Services)** using Server Manager.
+4. Placed the website files inside the IIS `wwwroot` directory.
+5. Configured IIS to host the website.
+6. Configured the required AWS security group settings.
+7. Accessed the deployed website using the EC2 instance's public IP address.
 
 ## 📸 Deployment Screenshots
 
-### 1. S3 Bucket Created
+### 1. Windows EC2 Instance
 
-The screenshot below shows the S3 bucket created for hosting the website.
+The screenshot below shows the Windows EC2 instance created for hosting the website.
 
-![S3 Bucket Created](images/s3-bucket.png)
+![Windows EC2 Instance](images/img1.png)
 
-### 2. Website Files Uploaded
+### 2. Password Decryptiom
 
-The screenshot below shows the website files uploaded to the S3 bucket.
+The screenshot below shows the decrypted password.
 
-![Files Uploaded to S3](images/s3-files.png)
+![IIS Installation](images/img2.png)
+
+### 3. Website Files in wwwroot
+
+The screenshot below shows the website files placed inside the IIS `wwwroot` directory.
+
+![Website Files](images/website-files.png)
+
+### 4. Website Hosted on IIS
+
+The screenshot below shows the TailStore website successfully hosted using IIS on the Windows EC2 server.
+
+![Website Hosted on IIS](images/website-iis.png)
+
+### 5. Deployed Website
+
+The screenshot below shows the final TailStore website accessed through the EC2 instance.
+
+![Deployed Website](images/deployed-website.png)
 
 ## 🚀 Hosting
 
-**Hosting Platform:** Amazon S3  
+**Hosting Platform:** Amazon EC2  
+**Operating System:** Windows Server  
+**Web Server:** IIS  
 **Version Control:** GitHub
