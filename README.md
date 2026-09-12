@@ -36,9 +36,9 @@ The screenshot below shows the Windows EC2 instance created for hosting the webs
 
 ![Windows EC2 Instance](images/img1.png)
 
-### 2. Password Decryptiom
+### 2. Windows EC2 Password Decryption
 
-The screenshot below shows the decrypted password.
+The screenshot below shows the process of retrieving the initial Windows Administrator password for the EC2 instance using the associated private key.
 
 ![IIS Installation](images/img2.png)
 
@@ -46,19 +46,14 @@ The screenshot below shows the decrypted password.
 
 The screenshot below shows the website files placed inside the IIS `wwwroot` directory.
 
-![Website Files](images/website-files.png)
+![Website Files](images/img4.jpeg)
 
 ### 4. Website Hosted on IIS
 
 The screenshot below shows the TailStore website successfully hosted using IIS on the Windows EC2 server.
 
-![Website Hosted on IIS](images/website-iis.png)
+![Website Hosted on IIS](images/img5.jpeg)
 
-### 5. Deployed Website
-
-The screenshot below shows the final TailStore website accessed through the EC2 instance.
-
-![Deployed Website](images/deployed-website.png)
 
 ## 🚀 Hosting
 
